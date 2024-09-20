@@ -11,3 +11,4 @@ For the lift and shift to a Iaas the solution will be the use of 3 VMs within a 
 Paas:
 For the lift and shift to a Paas the solutions will utilize Azure functionality including App Services, Static Web Apps and Azure database for PostgreSQL. The Flask backend will be hosted on Azure App Services which will be the first stop of an external request and it will process what is required (database or response). The React Frontend will be hosted on Azure Static Web Apps which will allow users to interact with the webpage. Finally the Database will be hosted on the Azure database for PostgreSQL this will interact this the information stored securely. Through the use of Azure services communication flows both ways through the different services as needed.
 
+![IaaS PaaS Diagram](https://raw.githubusercontent.com/brow1063/CST8913Lab2/main/IaasPaas.png)
